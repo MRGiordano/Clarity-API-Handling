@@ -621,6 +621,3 @@ def splitdf_bydate(datadf, timeseries, splittype, splitdates):
         except:
             raise ValueError('Something went wrong trying to section the df')
     return -1
-
-# q = clarity_api_download(apikey='d8zbBGfKxJ8Gg14jGuYLIjtBHw1uMEZQfdWKjzIY',getdata=False, getlocations=True)
-t = clarity_api_download(apikey='d8zbBGfKxJ8Gg14jGuYLIjtBHw1uMEZQfdWKjzIY',getdata=True)
